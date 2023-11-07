@@ -1,0 +1,13 @@
+site_name: Root Project
+
+nav: 
+  - home: 'index.md'
+  - sub: '*include ./sub/mkdocs.yml'
+  
+plugins:
+  - awesome-pages:
+      strict: true
+      sort_type: natural
+  - monorepo
+  - search
+

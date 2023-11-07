@@ -1,0 +1,7 @@
+site_name: Sub Project
+ 
+plugins:
+  - awesome-pages:
+      strict: true
+      sort_type: natural
+
